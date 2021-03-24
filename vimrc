@@ -309,6 +309,7 @@ Plug 'tommcdo/vim-exchange'
 Plug 'tpope/vim-jdaddy'
 Plug 'elzr/vim-json'
 Plug 'airblade/vim-gitgutter'
+Plug 'chr4/nginx.vim'
 Plug 'junegunn/seoul256.vim'
 call plug#end()
 
