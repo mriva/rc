@@ -1,0 +1,4 @@
+*.swp
+.ssync/
+.hg/
+docker-compose.teoss.yml

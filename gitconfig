@@ -1,0 +1,20 @@
+[core]
+	excludesfile = /home/teoss/.gitignore
+	editor = gvim -f
+    pager = less -R -F -X
+	autocrlf = input
+[user]
+	name = Matteo Riva
+	email = muradin@gmail.com
+[alias]
+    cc = commit -va
+    cv = commit -v
+    lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'
+    lga = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+    lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+    lg = !"git lg1"
+    pl = pull --no-commit --no-ff
+    co = checkout
+    s = status
+[push]
+    default = current
