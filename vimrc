@@ -81,8 +81,8 @@ endif
 let mapleader = ","
 
 " yankring
-let g:yankring_history_dir        = '~/.vim/tmp'
-let g:yankring_map_dot            = 0
+let g:yankring_history_dir = '~/.vim/tmp'
+let g:yankring_map_dot = 0
 let g:yankring_max_element_length = 10000
 
 " NERDTree
@@ -91,11 +91,11 @@ let NERDTreeDirArrows = 1
 let g:NERDSpaceDelims = 1
 
 " CTRLP
-let g:ctrlp_regexp_search  = 0
-let g:ctrlp_max_files      = 0
-let g:ctrlp_show_hidden    = 1
-" let g:ctrlp_user_command   = ['.git', 'cd %s && git ls-files -co -x node_modules']
-" let g:ctrlp_user_command   = ['.git', 'cd %s && git ls-files']
+let g:ctrlp_regexp_search = 0
+let g:ctrlp_max_files = 0
+let g:ctrlp_show_hidden = 1
+" let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co -x node_modules']
+" let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files']
 let g:ctrlp_user_command = 'ag -l --nocolor -g "" %s'
 let g:ctrlp_use_caching = 0
 
@@ -106,11 +106,11 @@ let g:airline_theme = 'papercolor'
 "let g:airline_solarized_bg = 'dark'
 
 " UltiSnips
-let g:UltiSnipsExpandTrigger       = "<F1>"
-let g:UltiSnipsJumpForwardTrigger  = "<c-j>"
+let g:UltiSnipsExpandTrigger = "<F1>"
+let g:UltiSnipsJumpForwardTrigger = "<c-j>"
 let g:UltiSnipsJumpBackwardTrigger = "<c-k>"
-let g:UltiSnipsEditSplit           = "vertical"
-let g:UltiSnipsListSnippets        = "<cs-tab>"
+let g:UltiSnipsEditSplit = "vertical"
+let g:UltiSnipsListSnippets = "<cs-tab>"
 
 " SideSearch
 let g:side_search_prg = "ag --word-regexp --ignore='*.js.map' --ignore='node_modules' --heading --stats -B 1 -A 4"
@@ -308,6 +308,7 @@ Plug 'ervandew/supertab'
 Plug 'tommcdo/vim-exchange'
 Plug 'tpope/vim-jdaddy'
 Plug 'elzr/vim-json'
+Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/seoul256.vim'
 call plug#end()
 
