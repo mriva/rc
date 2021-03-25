@@ -1,3 +1,4 @@
+rm -rf ~/.vim/autoload
 rm -rf ~/.vim/plugged
 mkdir -p ~/.vim/tmp
 curl -sfLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
