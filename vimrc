@@ -13,7 +13,6 @@ set   hlsearch
 set   ignorecase
 set   incsearch
 set   isfname=@,48-57,/,.,-,_,+,,,#,$,%,~
-set   shell=/usr/bin/zsh
 set   tags=./tags;,tags;,tags-vendor;
 set   ttyfast
 
