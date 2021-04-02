@@ -120,6 +120,9 @@ let g:side_search_prg = "ag --word-regexp --ignore='*.js.map' --ignore='node_mod
 " GitGutter
 let g:gitgutter_sign_column_always = 1
 
+" Vim json
+let g:vim_json_syntax_conceal = 0
+
 "----------------------------------------------------------
 " GENERAL MAPPINGS
 "----------------------------------------------------------
